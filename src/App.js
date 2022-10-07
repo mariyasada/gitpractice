@@ -3,6 +3,7 @@ import './App.css';
 import Hedear from './Component/Hedear';
 import Login from './Component/login';
 import Signup from './Component/signup';
+import Registration from './Component/registration';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hedear/>
       <Login/>
       <Signup/>
+      <Registration/>
     </div>
   );
 }
